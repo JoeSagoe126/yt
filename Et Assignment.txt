@@ -1,0 +1,18 @@
+create database et;
+;
+create table EDetails(
+EmployeeId int,
+EmployeeName text,
+Age int,
+Address varchar(100),
+primary key (EmployeeId)
+);
+insert into EDetails values
+('1', 'Joe Wilson',30,'Labone 21  Street'),
+('2','Linda Otoo', 28,'Ablekuma 1st Street'),
+('3', 'Augustine Danso', 30, 'Ablekuma 1st Street'),
+('4', 'Gabriel Sarpong', 29, 'Dansoman Last Stop'),
+('5', 'Hillary Clinton', 26, 'Taifa-Achimota'),
+('6', 'Rocky Nana Yaa', 29, 'PigFarm'),
+('7', 'Bright Addai', 24, 'Burma-Camp'),
+('8', 'Prince Cudjoe', 29, 'Kokomelemele');
